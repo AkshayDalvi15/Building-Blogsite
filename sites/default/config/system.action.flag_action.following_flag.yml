@@ -1,0 +1,15 @@
+uuid: 3d521603-8c81-42d6-bf33-6f4f6b362572
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.following
+  module:
+    - flag
+id: flag_action.following_flag
+label: 'Follow this user'
+type: user
+plugin: 'flag_action:following_flag'
+configuration:
+  flag_id: following
+  flag_action: flag

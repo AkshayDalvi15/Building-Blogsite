@@ -1,0 +1,10 @@
+uuid: db5bb22d-0728-4b72-a8db-3e86ae8f1cda
+langcode: en
+status: true
+dependencies:
+  module:
+    - weather
+id: weather_place.token
+label: Token
+targetEntityType: weather_place
+cache: true

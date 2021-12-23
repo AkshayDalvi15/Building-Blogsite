@@ -1,0 +1,25 @@
+uuid: c068e995-1c7b-4c88-805e-8e1f1697a0d2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - weather
+  theme:
+    - bartik
+id: weathersystemwidedisplay1
+theme: bartik
+region: sidebar_second
+weight: -6
+provider: null
+plugin: 'weather_system_display_block:2'
+settings:
+  id: 'weather_system_display_block:2'
+  label: 'Weather: system-wide display (#1)'
+  label_display: visible
+  provider: weather
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '/search/*'

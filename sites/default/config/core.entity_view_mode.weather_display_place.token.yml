@@ -1,0 +1,10 @@
+uuid: 9c05b3e9-c7fc-4363-a3b7-c35c1c5c77a5
+langcode: en
+status: true
+dependencies:
+  module:
+    - weather
+id: weather_display_place.token
+label: Token
+targetEntityType: weather_display_place
+cache: true

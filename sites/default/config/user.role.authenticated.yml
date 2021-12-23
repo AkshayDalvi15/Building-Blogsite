@@ -1,0 +1,41 @@
+uuid: fbd41694-bef1-441b-af20-6979f61e0e6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.comment_blog
+    - node.type.article
+    - node.type.blog
+    - node.type.page
+  module:
+    - comment
+    - contact
+    - filter
+    - node
+    - search
+    - shortcut
+    - system
+_core:
+  default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'create article content'
+  - 'create blog content'
+  - 'create page content'
+  - 'delete own article content'
+  - 'delete own blog content'
+  - 'delete own page content'
+  - 'edit own article content'
+  - 'edit own blog content'
+  - 'edit own page content'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format comment_blog'

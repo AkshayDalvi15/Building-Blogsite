@@ -1,0 +1,29 @@
+uuid: 32263a82-85fe-4e68-8c55-39b0df8d004d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.feature_blog
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__feature_blog_block_1
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:feature_blog-block_1'
+settings:
+  id: 'views_block:feature_blog-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

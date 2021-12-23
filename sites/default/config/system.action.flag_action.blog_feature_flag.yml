@@ -1,0 +1,15 @@
+uuid: edf40ac5-9c61-49d2-9cb6-0ad9905a3d3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.blog_feature
+  module:
+    - flag
+id: flag_action.blog_feature_flag
+label: 'Featured Blog'
+type: node
+plugin: 'flag_action:blog_feature_flag'
+configuration:
+  flag_id: blog_feature
+  flag_action: flag

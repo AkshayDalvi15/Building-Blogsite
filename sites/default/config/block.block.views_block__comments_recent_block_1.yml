@@ -1,0 +1,29 @@
+uuid: c3d8a189-18e7-40a6-9ea5-ceb445bc9129
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.comments_recent
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__comments_recent_block_1
+theme: bartik
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'views_block:comments_recent-block_1'
+settings:
+  id: 'views_block:comments_recent-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /blogs

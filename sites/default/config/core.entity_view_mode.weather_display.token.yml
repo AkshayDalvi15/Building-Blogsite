@@ -1,0 +1,10 @@
+uuid: da113803-bc35-4783-9cce-a53a558c0946
+langcode: en
+status: true
+dependencies:
+  module:
+    - weather
+id: weather_display.token
+label: Token
+targetEntityType: weather_display
+cache: true

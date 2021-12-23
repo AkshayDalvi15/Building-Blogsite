@@ -1,0 +1,10 @@
+uuid: 8eb95139-ebda-473c-ad1f-91dd3839fbf0
+langcode: en
+status: true
+dependencies:
+  module:
+    - weather
+id: weather_forecast_information.token
+label: Token
+targetEntityType: weather_forecast_information
+cache: true

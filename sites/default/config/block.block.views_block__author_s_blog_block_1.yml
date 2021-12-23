@@ -1,0 +1,32 @@
+uuid: e288ebb3-5bac-4eb2-bd15-beaeec9ac02f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.author_s_blog
+  module:
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block__author_s_blog_block_1
+theme: bartik
+region: sidebar_second
+weight: -9
+provider: null
+plugin: 'views_block:author_s_blog-block_1'
+settings:
+  id: 'views_block:author_s_blog-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      blog: blog

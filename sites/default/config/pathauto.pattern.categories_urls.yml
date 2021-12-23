@@ -1,0 +1,22 @@
+uuid: 40543d39-33a7-4b44-99e0-b591ff837f65
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: categories_urls
+label: 'categories urls'
+type: 'canonical_entities:taxonomy_term'
+pattern: '[term:original]/[term:vocabulary]'
+selection_criteria:
+  ca820ca7-c8b6-48d1-a0c3-05b20ba9a6a1:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: ca820ca7-c8b6-48d1-a0c3-05b20ba9a6a1
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      blog_content: blog_content
+selection_logic: and
+weight: -5
+relationships: {  }

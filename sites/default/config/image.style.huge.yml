@@ -1,0 +1,15 @@
+uuid: 81f81e87-7bdf-4726-8f70-71e570adbf1f
+langcode: en
+status: true
+dependencies: {  }
+name: huge
+label: huge
+effects:
+  aca07ef5-7697-439c-b780-daca1e1e32e9:
+    uuid: aca07ef5-7697-439c-b780-daca1e1e32e9
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 960
+      height: 360
+      anchor: center-center

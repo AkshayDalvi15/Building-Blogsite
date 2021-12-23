@@ -1,0 +1,30 @@
+uuid: 7638e3d6-a1d0-4fd5-b0ca-bd3f01c00146
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: blog_feature
+label: 'blog feature'
+bundles:
+  - blog
+entity_type: node
+global: false
+flag_short: 'Featured Blog'
+flag_long: ''
+flag_message: ''
+unflag_short: 'Un-featured Blog'
+unflag_long: ''
+unflag_message: ''
+unflag_denied_text: ''
+weight: 0
+flag_type: 'entity:node'
+link_type: ajax_link
+flagTypeConfig:
+  show_in_links: {  }
+  show_as_field: true
+  show_on_form: false
+  show_contextual_link: false
+  extra_permissions:
+    owner: '0'
+linkTypeConfig: {  }

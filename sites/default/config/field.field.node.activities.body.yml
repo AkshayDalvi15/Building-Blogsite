@@ -1,0 +1,23 @@
+uuid: ee1d92a0-9d46-45ac-9d0e-9f7f3b394558
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.activities
+  module:
+    - text
+id: node.activities.body
+field_name: body
+entity_type: node
+bundle: activities
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

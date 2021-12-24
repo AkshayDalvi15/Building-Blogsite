@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '64040b1cf30e87fbb84384382c76b5994b9701ba',
+    'reference' => '5d626a502bf57d8cd6f0729e6a85b271dbaf541f',
     'name' => 'drupal/legacy-project',
   ),
   'versions' => 
@@ -728,7 +728,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '64040b1cf30e87fbb84384382c76b5994b9701ba',
+      'reference' => '5d626a502bf57d8cd6f0729e6a85b271dbaf541f',
     ),
     'drupal/link' => 
     array (
@@ -1267,8 +1267,8 @@ private static $installed = array (
     array (
       'provided' => 
       array (
-        0 => '1.0',
-        1 => '^1.0',
+        0 => '^1.0',
+        1 => '1.0',
       ),
     ),
     'psr/event-dispatcher-implementation' => 
